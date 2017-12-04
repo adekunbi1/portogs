@@ -1,0 +1,209 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 9, 2017, 1:17:07 AM
+    Author     : user
+*/
+
+p, h1{font-family: 'Signika Negative', sans-serif;}
+
+/*NAVBAR*/
+.navbar-default{
+    /*background-color: transparent;*/
+    background-color: #000;
+    opacity: 0.6;
+    border-color: transparent;  
+    padding: 10px 0 0;
+    height: 70px;
+}
+
+.navbar{
+  margin-bottom: 0px;
+}
+
+.navbar-nav{
+  font-family: 'Signika Negative', sans-serif;
+  /*margin: 35px 100px 0;*/
+}
+
+.navbar-default .navbar-nav li a {
+color: #fff;
+font-weight: 600;
+}
+
+.navbar-default .navbar-nav li a:hover{
+  /*color: #16a085;*/
+  color: #f16f0f;
+}
+
+/*.logo img {  margin: 15px 0 0 100px; }*/
+/*.navbar-brand .logo a:hover { color: #f16f0f; }*/
+.logo{color: #fff;}
+
+
+/*SLIDER*/
+#slider{
+  background: url('../img/bg.jpg');
+  width: 100%;
+  background-size:cover;
+}
+
+.item{
+    color: #fff;
+    padding: 200px 0;
+}
+
+.item h1{ font-size: 2.8em; font-weight: 700; }
+
+.item img{
+   
+}
+
+.carousel-indicators li{
+  background-color: #fff;
+  margin: 5px;
+}
+
+.carousel-indicators .active{
+  background-color: #16a885;
+  border: 1px solid #16a885;
+  margin: 5px;
+}
+
+.btn-success{font-size: .8em; padding: 10px 20px 10px 20px; margin: 15px 0;}
+/*.btn-success{background-color: #16a885; border: #16a885; font-size: .8em; padding: 10px 20px 10px 20px; margin: 15px 0;}*/
+/*.btn-success:hover{background: orange;}*/
+
+
+
+/*SERVICE*/
+#service{
+    font-size: 1em;
+  background-color: #f5f6f7;
+  padding: 60px 0 30px;   
+  text-align: center;
+}
+
+  #service h1{ 
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f16f0f;
+  padding-top: 20px;
+  }
+
+#service .fa {color:#f16f0f; }
+/*#service .fa {color:#16a085; }*/
+
+#service .fa:hover {color:#f16f0f; }
+
+  
+  /*ABOUT*/
+  #about{
+   background-color: #eeebf4;
+   padding: 30px 0 50px;
+    text-align: center;
+  }
+  
+  #about h1{
+      padding: 10px 0 30px;
+      font-size: 1.7em;
+      color: #f16f0f;
+      font-weight: 700;
+  }
+  
+  #about h3{
+      /*margin-top: -5px;*/
+   font-size: 1.5em;
+   font-weight: 600;
+      color: #f16f0f; 
+      text-align: center;
+      /*color: #16a085;*/   
+  }
+  
+#about img{  
+  margin-top: 25px;
+}
+
+  /*DESIGN*/
+  #design{padding: 50px 0 100px;
+  background-color: #ebebdc;
+  /*background-color: #f0ad0d;*/
+  }
+  
+  #design h1{
+   font-size: 1.7em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f16f0f; 
+  }
+  
+  .btn-success{background-color: #f16f0f; border: #f16f0f; font-size: 1em; padding: 10px 20px 10px 20px; margin: 15px 0;}
+  
+  /*SUBSCRIBE*/
+  #subscribe{
+      background: url('../img/subscribe.jpg');
+      width: 100%;
+      background-size: cover;
+      padding: 300px 0 300px;
+  }
+  
+  #subscribe h1{
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #f16f0f;
+  text-align: center;
+}
+   
+#subscribe .btn-default{
+    background-color: #f16f0f;;
+}
+
+#subscribe .fa {color:#fff;}
+#subscribe .fa:hover {color: #16a885; }
+
+
+  /*FOOTER*/
+  #footer {
+    background-color: #dad8dd;
+    padding: 50px 0 50px;
+}
+
+#footer h1{
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+
+#footer p{
+font-weight: 700;
+}
+
+#footer a{
+  color: #000
+}
+
+#footer a:hover{
+  color: #16a085;
+  text-decoration: none;
+}
+  
+/*MOBILE MEDIA QUERY*/
+@media(max-width:768px) {
+
+ .navbar-default .navbar-nav li a {
+background-color: #000;
+opacity: 0.9;
+}
+
+.navbar-default .navbar-nav li a:hover{
+  /*color: #16a885;*/
+  color: #f16f0f;
+}
+    
+    
+}
